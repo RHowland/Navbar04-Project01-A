@@ -1,0 +1,2 @@
+This file is needed to force git to push the navbar04-devsite folder 
+to the GitHub repo. 
