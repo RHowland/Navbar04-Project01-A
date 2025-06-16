@@ -1,0 +1,151 @@
+ChatGPT - Links Styling Suggestions.txt
+---------------------------------------
+
+Wix Developer: 
+I have provided two versions of this document: 
+- a .pdf file for readability.
+- this .txt file so you can copy the Velo code 
+  if find it helpful to you. 
+
+
+Prompt sent to ChatGPT:
+-----------------------
+
+In Wix Studio editor, is it possible to make the line color 
+different from the link text color?  I have two links that 
+have white text color with a dark gray background.  I want 
+the underlines to show, but I want them to be a 
+medium-to-light gray."
+
+Here is the text for the two links: 
+   800-123-4567        How we build your website
+
+In hover mode, I want the color of the underline to change to 
+a light blue color. 
+
+For the "800-123-4567" phone number text, link to the 
+"create-phone-call" webpage.
+
+For the "How we build your website" text, link to the 
+"Our Process" webpage.
+
+Please show me how to do this using designer options and Velo 
+code as needed. 
+
+(End of Prompt)
+
+========================================================
+
+ChatGPT Response: 
+Goal: You want to create two links in Wix Studio with:
+
+White text on a dark gray background
+
+Medium-light gray underlines (not default text color)
+
+Light blue underlines on hover
+
+Custom destinations per link (internal pages)
+
+Achieved using Wix Studio designer tools + Velo code if needed
+
+
+✅ Step-by-Step (Wix Studio Editor – Designer Only)
+If you're trying to avoid custom code, do this using the editor:
+
+① Add Two Text Elements
+Drag two text elements onto the canvas.
+
+Use Rich Text or set both as "Paragraph 1" or "Custom" — you can format part of the text separately.
+
+Enter this text:
+
+800-123-4567
+
+How we build your website
+
+② Convert Text to Links
+Highlight 800-123-4567, click the link icon in the toolbar, and select Page → choose create-phone-call page.
+
+Do the same for How we build your website → link to Our Process page.
+
+③ Apply White Text & Dark Gray Background
+Set Text Color = White #FFFFFF
+
+Set Background Color of the container = Dark Gray #1E1E1E or your choice
+
+④ Create a Custom Underline Effect
+Wix Studio doesn’t natively let you set underline color separately, but you can:
+
+Remove the built-in underline using:
+
+Text > Decoration > None
+
+Use Border-bottom workaround:
+
+Add a Box below each link with:
+
+Height: 1px
+
+Width: 100% of the link
+
+Background color: Medium-light gray (e.g., #B0B0B0)
+
+Position it manually just under the link
+
+For hover effect:
+
+Select the Box
+
+Click the Interactions (⚡) tab
+
+Add a Hover State
+
+In the Hover State: Change background color of the box to #ADD8E6 (light blue)
+
+This achieves visual separation of text and underline color without code.
+
+✅ Alternative: Do It with Velo Code (Precise Control)
+If you want full control using Wix Velo, here’s how to implement it using HTML inside a Rich Text box or in code:
+
+① Use an HTML Component or Rich Text Element
+Drag an HTML embed or Rich Text element
+
+Insert this code:
+
+html
+Copy
+Edit
+<!-- custom-links.html -->
+<p style="background-color: #1e1e1e; padding: 8px;">
+  <a href="/create-phone-call"
+     style="color: white; text-decoration: none; border-bottom: 1px solid #B0B0B0;"
+     onmouseover="this.style.borderBottomColor='#ADD8E6';"
+     onmouseout="this.style.borderBottomColor='#B0B0B0';">
+    800-123-4567
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="/our-process"
+     style="color: white; text-decoration: none; border-bottom: 1px solid #B0B0B0;"
+     onmouseover="this.style.borderBottomColor='#ADD8E6';"
+     onmouseout="this.style.borderBottomColor='#B0B0B0';">
+    How we build your website
+  </a>
+</p>
+This will:
+
+Show white text links
+
+Underlines appear in light gray
+
+On hover, underline changes to light blue
+
+Work cleanly in both desktop and mobile views
+
+✅ Summary
+Feature	Wix Studio Designer	Velo Code
+Different underline color	⚠️ Limited (workaround using boxes)	✅ Full control
+Hover underline color change	⚠️ Needs manual interaction setup	✅ Easy inline CSS
+Precise alignment and spacing	🟡 Manual adjustment needed	✅ Full styling via HTML/CSS
+Ease of use	✅ Beginner-friendly	🟡 Slightly more advanced
+

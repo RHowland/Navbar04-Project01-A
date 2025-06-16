@@ -1,0 +1,68 @@
+Navbar04 Vector Graphics Icon Details.txt
+
+
+Please use the following Two Svg Icons for the 
+Navbar04 project.
+
+
+---------------------------------------------
+User Account Icon
+-----------------
+
+Icon File Name:
+  user-account-icon-01.svg
+
+Download Url for this icon:
+  https://lucide.dev/icons/square-user-round
+
+lucide.dev icon name: 
+  "square-user-round"
+
+Svg Code: 
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-user-round"><path d="M18 21a6 6 0 0 0-12 0"/><circle cx="12" cy="11" r="4"/><rect width="18" height="18" x="3" y="3" rx="2"/></svg>
+
+Import statement code:
+  import { SquareUserRound } from "lucide-react";
+
+
+Icon Description:
+  24 px square with rounded corners
+  Inside the square with rounded corners is 
+  an outline of a person's head and shoulders.  
+
+
+---------------------------------------------
+Hamburger Menu Icon
+-------------------
+
+Icon File Name:
+  hamburger-menu-icon-01.svg
+
+
+Download Url for this icon:
+  https://lucide.dev/icons/square-menu
+  
+lucide.dev icon name: 
+  "square-menu"
+
+Svg Code:
+
+<!-- /public/hambicon01.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-user-round">
+  <path d="M18 21a6 6 0 0 0-12 0"/>
+  <circle cx="12" cy="11" r="4"/>
+  <rect width="18" height="18" x="3" y="3" rx="2"/>
+</svg>
+
+
+Import statement code: 
+  import { Menu } from "lucide-react";
+
+Description: 
+  24 px square with rounded corners 
+  Inside the square with rounded corners 
+  are 3 horizontal lnes. (the hamburger)
+
+
+
+----------------------------------------------

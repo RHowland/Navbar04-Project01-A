@@ -1,0 +1,132 @@
+Navbar04-Project01-A Developer Log.txt
+--------------------------------------
+
+2025-05-22
+
+There are two sections to this document: 
+1) DevLog Instructions   (How to Use This Log Document)
+2) Live Developer Log    (actual log entries)
+
+
+All Developers: 
+  Please enter your development comments in 
+  the Live Developer Log
+
+================================================================
+Dev Log Instructions:
+---------------------
+Purpose:
+--------
+The purpose of this log file is to provide a lightweight 
+chronological record of the development work that was 
+done on this website.  
+
+Over time, multiple developers my do work on this component 
+and it will be helpful for future developers to be aware 
+about what a previous developer did 
+
+Log Organization:
+-----------------
+This log file is divided into sequentially numbered 
+sections.  Each section contains details about the work 
+that was done on a single work sessiono on a single day.
+
+
+(Begin Example Log File Entry)
+----------------------------------------------------------------
+DevLogNumber 450 
+2025-05-20 Rich Howland 
+Prepared requirements package for this project. 
+- created GitHub repo for this project. 
+- created a local Git repo and synced it with the remote repo
+- created repo folders to organize the files.
+- copied supporting documents into the local repo. 
+
+----------------------------------------------------------------
+(End of Example Log File Entry) 
+
+=====================================================================
+=====================================================================
+
+              L I V E   D E V E L O P E R   L O G
+
+=====================================================================
+
+---------------------------------------------------------------------
+DevLogNumber 10
+2025-05-24 Rich Howland 
+Prepared the requirements package for this project. 
+- created a GitHub repo for this project and cloned it to my 
+  local PC.
+- created repo folders to organize the files.
+- copied supporting documents into the local repo. 
+
+I ran into problems with designing the developer workflow due 
+to my being a beginner with Wix development.  
+
+So, I have to do additional research. 
+
+
+---------------------------------------------------------------------
+DevLogNumber 20
+2025-05-25 Rich Howland 
+Continued work on the Requirements Document
+- The name for this requirements document is:
+    "Navbar04 ReqDoc01 V1A (Dev Name).txt" 
+
+- The "04" number in "Navbar04" states that this is the 4th 
+  completely new version of this same navbar component that is 
+  being developed by Rich Howland.  
+
+- "ReqDoc" = abbreviation for "Requirements Document"
+
+- The "01" in "ReqDoc01" states that this is the first requirements 
+  document for the Navbar04 component. 
+
+- The "V1A" notation defines the DOCUMENT VERSION for the 
+  requirements document. 
+  - "V" = "version"
+  - "1" = major version number    
+  - "A" = minor version number    (A, B, C, etc)
+
+  Every time that Rich changes the requirements document, he 
+  will increment the letter from "A", to "B", to "C", etc. 
+
+- The "(Dev Name)" section states the name of the Lead Developer 
+  for the Navbar04 component. 
+
+    Example: "Navbar04 ReqDoc01 V1A (Mary D.).txt" 
+
+
+
+
+---------------------------------------------------------------------
+DevLogNumber 30
+
+
+
+---------------------------------------------------------------------
+DevLogNumber 40
+
+
+
+---------------------------------------------------------------------
+DevLogNumber 50
+
+
+
+---------------------------------------------------------------------
+DevLogNumber 60
+
+
+---------------------------------------------------------------------
+DevLogNumber 70
+
+
+---------------------------------------------------------------------
+DevLogNumber 80
+
+
+---------------------------------------------------------------------
+DevLogNumber 90
+
